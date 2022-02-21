@@ -226,9 +226,10 @@ section {
   text-align: right;
 }
 
+/* REACH OUT STYLES START */
 .contact {
   text-align: center;
-  background-color: #024e76;
+  background: #024e76;
 }
 
 .contact h2 {
@@ -236,11 +237,12 @@ section {
 }
 
 .contact-info iframe {
-  width: 400;
-  height: 400;
+  width: 400px;
+  height: 400px;
 }
 
 .contact-info div {
+  width: 410px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
@@ -253,7 +255,8 @@ section {
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
@@ -263,3 +266,5 @@ section {
 .contact-info a {
   color: #fce138;
 }
+
+/* REACH OUT STYLES END */
