@@ -1,3 +1,4 @@
+/* BODY STYLES START */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,10 +9,10 @@ body {
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
+/* BODY STYLES END */
 
 
 /* HEADER / NAV BAR STYLES START */
-
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -49,9 +50,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
-
 /* HEADER / NAVBAR STYLES END */
-
 
 
 /* FOOTER STYLES START */
@@ -59,17 +58,18 @@ footer {
   background: #fce138;
   padding: 40px 35px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer h2 {
-  display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
@@ -79,29 +79,31 @@ footer a {
 }
 /* END FOOTER STYLES */
 
+
 /* STYLE ALL SECTION TAGS */
 section {
   padding: 60px;
 }
+/* STYLE ALL SECTION TAGS */
+
 
 /* HERO STYLES START */
 .hero {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
-  position: relative;
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
   color: #024e76;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
+  width: 40%;
+  margin: 3.5%;
 }
 
 .hero-form h3 {
@@ -133,6 +135,21 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 } 
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+}
 /* HERO STYLES END */
 
 
@@ -154,6 +171,7 @@ section {
   border-color: #39a6b2;
 }
 /* SECTION TITLE STYLES END */
+
 
 /* WHAT WE DO STYLES */
 .intro {
@@ -201,6 +219,7 @@ section {
 }
 /* WHAT YOU DO STYLES END */
 
+
 /* MEET THE TRAINERS START */
 .trainers {
   text-align: center;
@@ -242,6 +261,7 @@ section {
 }
 /* TRAINER STYLES END */
 
+
 /* REACH OUT STYLES START */
 .contact {
   text-align: center;
@@ -281,9 +301,8 @@ height: 400px;
 .contact-info a {
   color: #fce138;
 }
-
-
 /* REACH OUT STYLES END */
+
 
 /* UTILITIES */
 .text-left {
